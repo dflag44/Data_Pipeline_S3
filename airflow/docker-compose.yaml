@@ -96,8 +96,8 @@ x-airflow-common:
     - ./csv_files:/opt/airflow/csv_files
     - ./parquet_files:/opt/airflow/parquet_files
     - ./Processed_files:/opt/airflow/Processed_files
-    - /Users/karanbajaj/Desktop/dbt_mock:/opt/airflow/dbt_mock
-    - /Users/karanbajaj/.dbt:/opt/airflow/.dbt
+    - /Users/dubey/Desktop/dbt_mock:/opt/airflow/dbt_mock
+    - /Users/dubey/.dbt:/opt/airflow/.dbt
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
