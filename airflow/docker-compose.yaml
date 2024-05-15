@@ -70,7 +70,7 @@ x-airflow-common:
     AIRFLOW__SMTP__SMTP_USER: ${AIRFLOW__SMTP__SMTP_USER}
     AIRFLOW__SMTP__SMTP_PASSWORD: ${AIRFLOW__SMTP__SMTP_PASSWORD}
     AIRFLOW__SMTP__SMTP_PORT: 587
-    # AIRFLOW__SMTP__SMTP_MAIL_FROM: 1941012596.h.karanbajaj@gmail.com
+    # AIRFLOW__SMTP__SMTP_MAIL_FROM: 1941012596.h.dflag44@gmail.com
     # smtp_host = smtp.gmail.com 
     # smtp_starttls = True 
     # smtp_ssl = False 
